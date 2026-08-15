@@ -1,0 +1,5 @@
+apiVersion: v2
+name: homelab-traefik
+description: HelmChartConfig overrides for k3s's built-in Traefik
+version: 0.1.0
+appVersion: "1.0.0"
