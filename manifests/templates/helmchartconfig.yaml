@@ -13,3 +13,6 @@ spec:
               to: websecure
               scheme: https
               permanent: true
+    service:
+      annotations:
+        svccontroller.k3s.cattle.io/tolerations: "dedicated=pi:NoSchedule"
