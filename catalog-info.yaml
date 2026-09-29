@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: k8s-traefik
+  annotations:
+    github.com/project-slug: mattjmorrison-homelab/k8s-traefik
+spec:
+  type: ingress-controller
+  owner: mattjmorrison-homelab
+  system: traefik
