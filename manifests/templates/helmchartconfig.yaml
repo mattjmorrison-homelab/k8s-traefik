@@ -14,5 +14,7 @@ spec:
               scheme: https
               permanent: true
     service:
+      spec:
+        externalTrafficPolicy: Local
       annotations:
         svccontroller.k3s.cattle.io/tolerations: '[{"key":"dedicated","operator":"Equal","value":"pi","effect":"NoSchedule"}]'
